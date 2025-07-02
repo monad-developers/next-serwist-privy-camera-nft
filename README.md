@@ -52,30 +52,36 @@ npm install
 
 ### 3. Environment Configuration
 
-Create a `.env.local` file in the root directory (copy from `.env.example` if available):
+Create a `.env.local` file in the root directory:
 
 ```bash
+# Option 1: Copy from example (if .env.example exists)
 cp .env.example .env.local
+
+# Option 2: Create manually
+touch .env.local
 ```
 
-Add the following environment variables to `.env.local` or copy from `.env.example`:
+Add the following environment variables to your `.env.local` file:
 
 ```env
-# Privy Configuration (get from Privy Dashboard)
+# Privy Configuration (Required - get from Privy Dashboard)
 NEXT_PUBLIC_PRIVY_APP_ID=your_privy_app_id_here
 NEXT_PUBLIC_PRIVY_CLIENT_ID=your_privy_client_id_here
 
-# Pinata Configuration for IPFS (get from Pinata Dashboard)
+# Pinata Configuration (Required for IPFS - get from Pinata Dashboard)
 PINATA_JWT=your_pinata_jwt_token_here
 
-# NFT Contract Address (after deploying your contract)
+# NFT Contract Configuration (Required after deployment)
 NEXT_PUBLIC_NFT_CONTRACT_ADDRESS=your_deployed_contract_address_here
 
-# Web Push Configuration
-NEXT_PUBLIC_VAPID_PUBLIC_KEY=your_vapid_public_key
-VAPID_PRIVATE_KEY=your_vapid_private_key
+# Web Push Configuration (Required for notifications)
+NEXT_PUBLIC_VAPID_PUBLIC_KEY=your_vapid_public_key_here
+VAPID_PRIVATE_KEY=your_vapid_private_key_here
 VAPID_SUBJECT=mailto:your-email@example.com
 ```
+
+> **Important**: Replace all placeholder values with your actual credentials. Follow the steps below to obtain these values before running the application.
 
 ### 4. Generate VAPID Keys
 
