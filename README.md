@@ -65,20 +65,20 @@ touch .env.local
 Add the following environment variables to your `.env.local` file:
 
 ```env
-# Privy Configuration (Required - get from Privy Dashboard)
+# Privy 
 NEXT_PUBLIC_PRIVY_APP_ID=your_privy_app_id_here
 NEXT_PUBLIC_PRIVY_CLIENT_ID= # optional, you can leave this empty
+
+# Web Push
+WEB_PUSH_EMAIL=user@example.com
+WEB_PUSH_PRIVATE_KEY=your_vapid_private_key
+NEXT_PUBLIC_WEB_PUSH_PUBLIC_KEY=your_vapid_public_key
 
 # Pinata Configuration (Required for IPFS - get from Pinata Dashboard)
 PINATA_JWT=your_pinata_jwt_token_here
 
 # NFT Contract Configuration (Required after deployment)
-NEXT_PUBLIC_NFT_CONTRACT_ADDRESS=your_deployed_contract_address_here
-
-# Web Push Configuration (Required for notifications)
-NEXT_PUBLIC_VAPID_PUBLIC_KEY=your_vapid_public_key_here
-VAPID_PRIVATE_KEY=your_vapid_private_key_here
-WEB_PUSH_EMAIL=mailto:your-email@example.com
+NEXT_PUBLIC_NFT_CONTRACT_ADDRESS=your_deployed_contract_address_her
 ```
 
 > **Important**: Replace all placeholder values with your actual credentials. Follow the steps below to obtain these values before running the application.
