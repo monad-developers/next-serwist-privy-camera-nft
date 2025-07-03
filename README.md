@@ -41,7 +41,7 @@ Before you begin, ensure you have the following:
 
 ```bash
 git clone <repository-url>
-cd next14-privy-serwist
+cd next14-privy-serwist-camera-nft
 ```
 
 ### 2. Install Dependencies
