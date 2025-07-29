@@ -407,7 +407,7 @@ export default function CameraNFT() {
                      <strong className="text-green-700 dark:text-green-300">Transaction Hash:</strong>
                      <div className="break-all font-mono text-xs bg-white dark:bg-slate-800 p-2 rounded border">
                        <a
-                         href={`https://explorer.monad.xyz/tx/${mintedNFT.transactionHash}`}
+                         href={`https://testnet.monadscan.com/tx/${mintedNFT.transactionHash}`}
                          target="_blank"
                          rel="noopener noreferrer"
                          className="text-blue-600 dark:text-blue-400 hover:underline"

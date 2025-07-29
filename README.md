@@ -312,6 +312,6 @@ If you encounter any issues or have questions:
 1. Join [Monad Dev Discord](https://discord.gg/monaddev)
 2. Review the [Privy](https://privy.io/) documentation
 3. Check the [Pinata](https://docs.pinata.cloud/) documentation
-4. Visit [Monad Explorer](https://explorer.monad.xyz/) to view transactions
+4. Visit [Monad Explorer](https://testnet.monadscan.com/) to view transactions
 5. Check the [Next.js 14](https://nextjs.org/) documentation
 6. Check the [Serwist](https://serwist.pages.dev/) documentation
