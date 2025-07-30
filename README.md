@@ -40,8 +40,8 @@ Before you begin, ensure you have the following:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd next14-privy-serwist-camera-nft
+git clone https://github.com/monad-developers/next-serwist-privy-camera-nft
+cd next-serwist-privy-camera-nft
 ```
 
 ### 2. Install Dependencies
@@ -269,7 +269,7 @@ To customize your push notification content, edit `app/notification/route.ts` an
 ## 🔧 Project Structure
 
 ```
-next14-privy-serwist-camera-nft/
+next-serwist-privy-camera-nft/
 ├── app/
 │   ├── components/          # React components
 │   │   ├── CameraNFT.tsx   # Camera NFT minting component
